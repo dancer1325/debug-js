@@ -1,0 +1,19 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "app": "node app.js",
+    "worker": "node worker.js",
+    "customFormatters": "node customFormatters.js",
+    "extendDebugger": "node extendDebugger.js",
+    "overridesStdout": "node overridesStdout.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "debug": "^4.4.0"
+  }
+}
